@@ -6,7 +6,6 @@ EUvsUS = RiskEU - RiskUS
 
 
 par(mfrow = c(1,3))
-title( main = "Risk sharing in the US and EMU")
 barplot(RiskEU, ylab = " Degree of risk-sharing in %", ylim = c(0,0.8), main =   "EMU",col = "dodgerblue4")
 barplot(RiskUS, ylab = "Degree of risk-sharing in %", ylim = c(0,0.8), main =   "U.S.", col = "firebrick2")
 barplot(EUvsUS,ylab = "Difference in %" ,ylim = c(-0.5,0.5), main = "Difference EMU and U.S.", col = "darkorange3 ") 
